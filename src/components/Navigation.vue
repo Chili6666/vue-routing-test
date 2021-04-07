@@ -1,6 +1,5 @@
 <template>
   <div id="nav">
-    <h2>NavigationLinks:</h2>
     <ul class="nav-links">
       <li class="links">
         <router-link :to="{ name: 'Home' }">Home | </router-link>
