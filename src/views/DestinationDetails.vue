@@ -12,7 +12,7 @@
         </div>
       </section>
 
-      <section class="experiences">
+      <section >
         <h2>Top experiences in {{ destination.name }}</h2>
         <div class="cards">
           <div v-for="experience in destination?.experiences" :key="experience.slug" class="card">
@@ -82,8 +82,7 @@ img {
 
 .destination-details {
   display: flex;
-  justify-content: space-between;
-}
+} 
 p {
   margin: 0 40px;
   font-size: 20px;
@@ -91,7 +90,6 @@ p {
 }
 .cards {
   display: flex;
-  justify-content: space-between;
+  overflow-x: auto
 }
-
 </style>

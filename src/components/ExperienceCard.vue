@@ -29,6 +29,7 @@ img {
 .card {
   padding: 0 5px;
   position: relative;
+  margin-right: 15px;
 }
 .card__text {
   position: absolute;

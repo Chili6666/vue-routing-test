@@ -60,6 +60,8 @@ export default {
 .destinations {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 2px;
 }
 </style>

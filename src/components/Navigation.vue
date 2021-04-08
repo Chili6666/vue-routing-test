@@ -56,7 +56,7 @@ export default {
   z-index: 1;
 }
 
-* #nav a {
+#nav a {
   color: #2c3e50;
   text-decoration: none;
   font-weight: bold;
@@ -74,4 +74,5 @@ export default {
 .links:hover {
   text-decoration: underline;
 }
+
 </style>
